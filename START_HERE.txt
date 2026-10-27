@@ -1,0 +1,17 @@
+SUBSCRIPTION & BILLING MANAGEMENT SYSTEM
+
+This project is a single-repository full-stack demo.
+
+Run locally:
+1. Install Python 3.11 or newer.
+2. Create and activate a virtual environment.
+3. Run: pip install -r requirements.txt
+4. Set SECRET_KEY, ADMIN_EMAIL, and ADMIN_PASSWORD environment variables.
+5. Run: uvicorn app.main:app --reload
+6. Open http://127.0.0.1:8000/ for the dashboard or http://127.0.0.1:8000/docs for API docs.
+
+Render settings are in render.yaml. The Render deploy must have ADMIN_PASSWORD configured.
+
+Default local-only demo login when environment variables are omitted:
+admin@example.com / ChangeMe123!
+Change the demo password before deploying or sharing a live URL.
